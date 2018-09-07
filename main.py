@@ -3,7 +3,7 @@ import time
 
 url = 'https://registrierung.gmx.net/#.pc_page.mail.index.hero_1.registrierung'
 
-driver = webdriver.Chrome('C:\webdrivers\chromedriver.exe')
+driver = webdriver.Chrome('WebriverPath')
 driver.get(url)
 
 driver.find_element_by_class_name('pos-form-element').send_keys('EmailPrefix')
